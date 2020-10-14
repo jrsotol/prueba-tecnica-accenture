@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Crear Usuario en utest.com" skipped="0" tests="1" time="534.77" timestamp="2020-10-14 02:02:40"><testcase name="Crear un nuevo usuario"><error message="Expected condition failed: waiting for By.xpath: //*[@id=&quot;mainContent&quot;]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CANDADO-PC', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //*[@id="mainContent"]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CANDADO-PC', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@id="mainContent"]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CANDADO-PC', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: unknown&#13;
+co.com.test.stepdefinitions.CrearUsuarioStepDefinitions.elDeberiaVerEnPantallaElMensajeDeUsuarioCreado(CrearUsuarioStepDefinitions.java:48)&#13;
+✽.el deberia ver en pantalla el Welcome to the world's largest community of freelance software testers! de usuario creado(src/test/resources/features/crear_usuario.feature:14)&#13;
+</system-err></testcase></testsuite>

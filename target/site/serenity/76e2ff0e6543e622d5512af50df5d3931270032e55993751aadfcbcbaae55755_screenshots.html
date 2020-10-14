@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d52435e350c960b783181074afa50b5f9a9c29437244c47ecaf999061034a986.html">Crear Usuario En Utest.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="76e2ff0e6543e622d5512af50df5d3931270032e55993751aadfcbcbaae55755.html">Crear un nuevo usuario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-10-2020 14:02</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Crear Usuario En Utest.Com </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como usuario web
+Quiero ingresar a utest.com
+A crear un nuevo usuario
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="2f59df5a4feccefff541f3a3f0f19ff69082c3d3d406875b259415f1be4b0b57.html">Runnertags
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="773a571d092c5846a3019576b732f5fa2a9b129891c011c10cda8839a7f193e0.html">Regresion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Crear un nuevo usuario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='mainContent']/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CANDADO-PC', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'Driver info: driver.version: unknown">
+                            Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='mainContent']/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;mainContent&quot;]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CANDADO-PC', ip: '192.168.1.14', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'<br>Driver info: driver.version: unknown</pre>
+                                    </h5>
+                                    co.com.test.stepdefinitions.CrearUsuarioStepDefinitions.elDeberiaVerEnPantallaElMensajeDeUsuarioCreado(CrearUsuarioStepDefinitions.java
+                                    :48) <br>
+                                    ✽.el deberia ver en pantalla el Welcome to the world's largest community of freelance software testers! de usuario creado(src/test/resources/features/crear_usuario.feature
+                                    :14) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4735828000863715857.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="22f0c1e6e9ca1ba51432ead98ed41dd4717af2c52207a2879d5daf5c4659b4c4.png" title="Dado que jorge desea ingresar a la pagina de utest.com" width="1360"/>
+                <img src="275cad0692767e56ffae50b6cc5088ee6ea598db4b932fe36b08bde7f1df7926.png" title=" Jorge opens the Utest home page" width="1360"/>
+                <img src="22f0c1e6e9ca1ba51432ead98ed41dd4717af2c52207a2879d5daf5c4659b4c4.png" title=" Jorge clicks on Boton para ingresar a crear un usuario" width="1360"/>
+                <img src="ac48bce2d1316fc66b20e70358250e43cfe45ed1566359f5f515bc0579d2b09e.png" title="Cuando el ingrese a la pagina debe crear un usuario con los datos solicitados
+| Jorge | Soto | jrsotol@unal.edu.co | spanish | Romellopez10217514 | Romellopez10217514 |" width="1360"/>
+                <img src="23332d7ebecc29aa99a7f20ccf9bebcaa93710421093bd66a3945cf0000ae085.png" title=" Jorge enters 'Jorge' into Campo donde se ingresa el nombre del usuario" width="1360"/>
+                <img src="693c6b8608d058db57e72903c6f83f28fb312e8c256e89c945a0fd32ff063937.png" title=" Jorge enters 'Soto' into Campo para apellidos" width="1360"/>
+                <img src="01a5b04be7e1bd6327767bdc5f1100ccba25441dabbcc2c6da18a0f09523977e.png" title=" Jorge enters 'jrsotol@unal.edu.co' into Campo para correo eletronico" width="1360"/>
+                <img src="5bb067fe331ba8583977d1ca2b756e246ed709eff22b5e83e4604fe97da519f4.png" title=" Jorge clicks on Lista de los meses" width="1360"/>
+                <img src="abb7d343db039363bf76c9f7769b8b61c7b7d9341faff1090b7bef685a5125cd.png" title=" Jorge clicks on Lista de los dias" width="1360"/>
+                <img src="0252c25a6f59189364f8d65c5879d7dcd1f9d98593656655a76da42460bbbe7a.png" title=" Jorge clicks on Lista de los a&ntilde;os" width="1360"/>
+                <img src="0a7ccff40826c880a5d1a1a28cea72795a963b9bbd8e8480cc9f5de5722b349d.png" title=" Jorge enters 'spanish' into Campo para elegir el lenguaje" width="1360"/>
+                <img src="bd53c69efc84290b0a86c12f1844f4e4ef3e77efcc990ba1441fdfd97bb08835.png" title=" Jorge clicks on Boton siguiente" width="1360"/>
+                <img src="530562d9b95879718387d0e390786df8dfcc957aae8b988908333c2fe2f2dd70.png" title=" Jorge clicks on Btn para seguir con el proceso" width="1360"/>
+                <img src="a3aecb0d6444e884f5ed2aba2725ada63fc229772ffea9c7efe1422592592810.png" title=" Jorge clicks on lista para elegir la clase de movil" width="1360"/>
+                <img src="0928ad6de175e4f02f01b071670e9a1b207949306dc3f183409f5770f4770574.png" title=" Jorge clicks on Elegir movil" width="1360"/>
+                <img src="5fd49306ca0b21e9e9b519df7294e54d4a2d64327a3f9920a2055e1362ce4f16.png" title=" Jorge clicks on Btn para seguir con el proceso" width="1360"/>
+                <img src="e5ad6a24fa6a1eff6fac7dd58f43d414eca92c238bab6771237ae4e342715081.png" title=" Jorge enters 'Romellopez10217514' into Campo para crear contrase&ntilde;a" width="1360"/>
+                <img src="ff5537656b804e8aca5560e9f812ced29558e6bfc64f78027f0004c8a7bd3778.png" title=" Jorge enters 'Romellopez10217514' into Campo para confirmar la contrase&ntilde;a" width="1360"/>
+                <img src="095686331e68b193648fb453324bd1ad9e4b72bc46d9754555dddc896edaa784.png" title=" Jorge clicks on aceptar terminos de utest" width="1360"/>
+                <img src="4d121220dcb53bd6ccc9ea289d523a8d8e44f929186dfa200c367706695d1513.png" title=" Jorge clicks on aceptar terminos de privacidad" width="1360"/>
+                <img src="1f7224c780a8e18237eb706b31f0526dedddce97666c4dfd0dc408f0bee91803.png" title=" Jorge clicks on boton para completar el registro" width="1360"/>
+                <img src="aa98f8d99a592f0beb08b8212a4c17c198c7c94335eafac9a0c786666293f92b.png" title="Then el mensaje should be 'Welcome to the world's largest community of freelance software testers!': <span class='error-color'>ERROR</span>" width="1360"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
